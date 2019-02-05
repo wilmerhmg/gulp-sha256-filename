@@ -9,11 +9,22 @@
     "browser": true
   },
   "rules": {
-    "complexity": ["warn", {"max": 8}],
-    "curly": ["warn", "multi-line"],
+    "complexity": [
+      "warn",
+      {
+        "max": 8
+      }
+    ],
+    "curly": [
+      "warn",
+      "multi-line"
+    ],
     "default-case": "warn",
     "dot-notation": "warn",
-    "eqeqeq": ["warn", "smart"],
+    "eqeqeq": [
+      "warn",
+      "smart"
+    ],
     "guard-for-in": "warn",
     "no-alert": "error",
     "no-caller": "error",
@@ -37,7 +48,7 @@
     "no-lone-blocks": "error",
     "no-loop-func": "error",
     "no-magic-numbers": "off",
-    "no-multi-spaces": "warn",
+    "no-multi-spaces": "off",
     "no-multi-str": "error",
     "no-native-reassign": "error",
     "no-new": "error",
@@ -45,7 +56,7 @@
     "no-new-wrappers": "error",
     "no-octal": "warn",
     "no-octal-escape": "warn",
-    "no-param-reassign": "warn",
+    "no-param-reassign": "off",
     "no-process-env": "off",
     "no-proto": "error",
     "no-redeclare": "error",
@@ -63,8 +74,13 @@
     "prefer-promise-reject-errors": "warn",
     "radix": "error",
     "wrap-iife": "error",
-    "yoda": ["error", "never", {"onlyEquality": true}],
-
+    "yoda": [
+      "error",
+      "never",
+      {
+        "onlyEquality": true
+      }
+    ],
     "comma-dangle": "error",
     "no-cond-assign": "error",
     "no-console": "off",
@@ -95,9 +111,7 @@
     "use-isnan": "error",
     "valid-jsdoc": "warn",
     "valid-typeof": "error",
-
     "strict": "off",
-
     "no-catch-shadow": "error",
     "no-delete-var": "error",
     "no-label-var": "error",
@@ -107,6 +121,11 @@
     "no-undef-init": "error",
     "no-undefined": "off",
     "no-unused-vars": "warn",
-    "no-use-before-define": ["error", {"functions": false}]
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false
+      }
+    ]
   }
 }
