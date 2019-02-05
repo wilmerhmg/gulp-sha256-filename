@@ -1,0 +1,40 @@
+{
+  "name": "gulp-sha256-filename",
+  "version": "1.0.1",
+  "author": "Wilmer H. Muñoz <wilmerhmg@gmail.com>",
+  "license": "MIT",
+  "description": "gulp-sha256-filename is a gulp plug-in rename file with sha256.",
+  "main": "./index.js",
+  "scripts": {
+    "debug-mocha": "node --inspect-brk node_modules/mocha/bin/_mocha src/*.mocha.js test/*.test.js",
+    "lint": "eslint index.js lib/*.js test/*.js",
+    "test": "npm run lint && npm run test-mocha && nyc report --reporter=text-lcov | coveralls",
+    "test-mocha": "nyc --nycrc-path test/.nycrc-mocha.json ./node_modules/.bin/_mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-Wito/gulp-sha256-filename.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "JavaScript",
+    "sha256"
+  ],
+  "bugs": {
+    "url": "https://github.com/Dev-Wito/gulp-sha256-filename/issues"
+  },
+  "homepage": "https://github.com/Dev-Wito/gulp-sha256-filename",
+  "dependencies": {},
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.11.1",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.1.0"
+  }
+}
