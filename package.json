@@ -1,6 +1,6 @@
 {
   "name": "gulp-sha256-filename",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "author": "Wilmer H. Muñoz <wilmerhmg@gmail.com>",
   "license": "MIT",
   "description": "gulp-sha256-filename is a gulp plug-in rename file with sha256.",
