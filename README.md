@@ -20,7 +20,7 @@ npm i -D gulp-sha256-filename
 
 Here is an example of how to use the hash() function in your gulpfile.js file:
 
-```
+```js
 const gulp = require('gulp');
 const hash = require('gulp-sha256-filename');
 
@@ -33,7 +33,7 @@ return gulp.src('./assembly.json')
 
 ### Filename custom format
 You can set a custom format for filename.
-```
+```js
 const gulp = require('gulp');
 const hash = require('gulp-sha256-filename');
 
@@ -46,7 +46,7 @@ return gulp.src('./assembly.json')
 });
 ```
 and set limit length at hash
-```
+```js
 const gulp = require('gulp');
 const hash = require('gulp-sha256-filename');
 
